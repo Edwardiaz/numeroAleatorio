@@ -21,7 +21,11 @@ public class MainAleatorio {
 					System.out.println("operacion "+m+": ");
 					resultadoS = y+x;
 					resultadoR = y-x;
-					System.out.println(y+" + "+x+" = "+resultadoR+resultadoS);
+					if(resultadoR<0) {
+					System.out.println(y+" + "+x+" = "+((resultadoR)*-1)+resultadoS);
+					}else {
+						System.out.println(y+" + "+x+" = "+resultadoR+resultadoS);
+					}
 		}
 	}
 }
