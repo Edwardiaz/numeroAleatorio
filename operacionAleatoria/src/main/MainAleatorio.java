@@ -10,14 +10,14 @@ public class MainAleatorio {
 
 		Random random = new Random();
 		System.out.println("Operaciones aleatorias: ");
-		for (int m = 0; m <= 20; m++) {
+		for (int m = 1; m <= 20; m++) {
 
 //				System.out.println("Número aleatorio 1: " + (int) (random.nextDouble() * 9));
 
 
 //					System.out.println("Número aleatorio 2: " + (int) (random.nextDouble() * 9));
-					x=(int) (random.nextDouble() * 99);
-					y=(int) (random.nextDouble() * 99);
+					x=(int) (random.nextDouble() * 99+1);
+					y=(int) (random.nextDouble() * 99+1);
 					System.out.println("operacion "+m+": ");
 					resultadoS = y+x;
 					resultadoR = y-x;
