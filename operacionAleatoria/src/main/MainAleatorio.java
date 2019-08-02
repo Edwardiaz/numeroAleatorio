@@ -17,7 +17,7 @@ public class MainAleatorio {
 
 //					System.out.println("Número aleatorio 2: " + (int) (random.nextDouble() * 9));
 					x=(int) (random.nextDouble() * 99+1);
-					y=(int) (random.nextDouble() * 99+1);
+					y=(int) (random.nextDouble() * 98+1);
 					System.out.println("operacion "+m+": ");
 					resultadoS = y+x;
 					resultadoR = y-x;
